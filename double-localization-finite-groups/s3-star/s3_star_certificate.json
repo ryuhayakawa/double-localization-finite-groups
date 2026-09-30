@@ -1,0 +1,188 @@
+{
+  "certificate": "fusion-aware S3 star-block interval certificate",
+  "generated_by": "verify_s3_star_certificate.py",
+  "groups": [
+    {
+      "boundary_comparison_count": 4374,
+      "boundary_count": 729,
+      "conditional_star_heat_bath_floor": {
+        "decimal": 0.3142857142857143,
+        "exact": "11/35"
+      },
+      "derivative_nonnegativity_failures": 0,
+      "distinct_polynomial_comparison_count": 288,
+      "edge_label_gap_floor": {
+        "decimal": 0.07475707524389066,
+        "exact": "19349/258825"
+      },
+      "edge_to_star_comparison_factor": {
+        "decimal": 0.15714285714285714,
+        "exact": "11/70"
+      },
+      "fixed_sign_failures": {
+        "full-sign": 0,
+        "marginal-sign": 0
+      },
+      "group": "S3",
+      "internal_influence_comparison_count": 81,
+      "internal_influence_derivative_nonnegativity_failures": 0,
+      "internal_influence_fixed_sign_failures": 0,
+      "internal_influence_maximum_subdivision_depth": 0,
+      "internal_witness_count": 16,
+      "internal_witnesses": [
+        {
+          "first_changed_label": "trivial",
+          "fixed_internal_label": "trivial",
+          "outer_pair": [
+            "trivial",
+            "trivial"
+          ],
+          "second_changed_label": "sign"
+        },
+        {
+          "first_changed_label": "trivial",
+          "fixed_internal_label": "trivial",
+          "outer_pair": [
+            "trivial",
+            "trivial"
+          ],
+          "second_changed_label": "standard"
+        },
+        {
+          "first_changed_label": "trivial",
+          "fixed_internal_label": "sign",
+          "outer_pair": [
+            "trivial",
+            "trivial"
+          ],
+          "second_changed_label": "sign"
+        },
+        {
+          "first_changed_label": "sign",
+          "fixed_internal_label": "sign",
+          "outer_pair": [
+            "trivial",
+            "trivial"
+          ],
+          "second_changed_label": "standard"
+        }
+      ],
+      "maximum_internal_one_neighbor_influence": {
+        "decimal": 0.34285714285714286,
+        "exact": "12/35"
+      },
+      "maximum_residual_coupling_bound": {
+        "decimal": 0.3810682893847194,
+        "exact": "2818/7395"
+      },
+      "maximum_subdivision_depth": 0,
+      "maximum_witness_count": 192,
+      "maximum_witnesses": [
+        {
+          "changed_boundary_coordinate": 0,
+          "first_boundary": [
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial"
+          ],
+          "second_boundary": [
+            "standard",
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial"
+          ]
+        },
+        {
+          "changed_boundary_coordinate": 0,
+          "first_boundary": [
+            "sign",
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial",
+            "sign"
+          ],
+          "second_boundary": [
+            "standard",
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial",
+            "sign"
+          ]
+        },
+        {
+          "changed_boundary_coordinate": 0,
+          "first_boundary": [
+            "sign",
+            "trivial",
+            "trivial",
+            "trivial",
+            "sign",
+            "trivial"
+          ],
+          "second_boundary": [
+            "standard",
+            "trivial",
+            "trivial",
+            "trivial",
+            "sign",
+            "trivial"
+          ]
+        },
+        {
+          "changed_boundary_coordinate": 0,
+          "first_boundary": [
+            "trivial",
+            "trivial",
+            "trivial",
+            "trivial",
+            "sign",
+            "sign"
+          ],
+          "second_boundary": [
+            "standard",
+            "trivial",
+            "trivial",
+            "trivial",
+            "sign",
+            "sign"
+          ]
+        }
+      ],
+      "minimum_accepted_bernstein_coefficient": {
+        "decimal": 0.0,
+        "exact": "0/1"
+      },
+      "one_site_endpoint_negative_control": {
+        "degree_four_row_sum": {
+          "decimal": 1.3714285714285714,
+          "exact": "48/35"
+        },
+        "maximum_single_neighbor_influence": {
+          "decimal": 0.34285714285714286,
+          "exact": "12/35"
+        }
+      },
+      "star_block_curvature_floor": {
+        "decimal": 0.4757268424611224,
+        "exact": "3518/7395"
+      },
+      "state_count": 27,
+      "t_interval": "0<=t<=2"
+    }
+  ],
+  "path_coupling_geometry": "kappa_star >= 2-4 W1",
+  "residual_transport_bound": "W1 <= TV(full)+2 TV(opposite marginal)",
+  "schema_version": 1,
+  "software_requirements": {
+    "python": ">=3.9",
+    "third_party_packages": []
+  },
+  "star_weight": "z_t(l1,l2,l3) prod_i z_t(li^*,b_i,c_i)"
+}
